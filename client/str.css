@@ -1,0 +1,26 @@
+.frek{
+    background-color: #fff;
+    width: 25%;
+    float: right;
+    height: auto;
+    position: sticky;
+    
+    
+}
+.frek:hover{
+    background-color: grey;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: hotpink;
+}
+header .container{
+    background-color: gray;
+}
+.rt
+{
+    background-color: gray;
+    opacity: 0.6;
+}

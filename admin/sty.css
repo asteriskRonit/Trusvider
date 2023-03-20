@@ -1,0 +1,56 @@
+
+.col-12{
+    padding: 20px;
+    margin-top: 20px;
+
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+} 
+tbody{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#y{
+    background-color: rgb(253, 250, 246);
+}
+#ty{
+    
+    margin-top: 20px;
+    padding: 10px;
+}
+.col-md-5{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#r{
+    width: 1090px;
+}
+.col-11{
+    background-color: #f6f8f8;
+}
+#iu{
+    background-color: rgb(240, 243, 247);
+}
+#u{
+    background-color: rgb(154, 181, 207);
+}
+#f{
+
+    background-color:rgb(255, 255, 252);
+    font-family:sans-serif
+}
+#fe{
+    margin-left: 20px;
+}
+#bt{
+   background-color:rgb(199, 225, 252);
+}
+#sb{
+    height: 100px;
+    width: 500px;
+}
+
+    

@@ -1,0 +1,141 @@
+:root {
+    --main-text-color: #808080;
+    --second-text-color: #ea1b1b;
+    --second-bg-color: #ffffff;
+    --bs-gradient: linear-gradient( rgb(2, 2, 39), #081c36);
+  
+  }
+  #er{
+      background-color:  #ffffff;
+  }
+  
+  .primary-text {
+    color: var(--main-text-color);
+  }
+  
+  .second-text {
+    color: var(--second-text-color);
+  }
+  
+  .secondary-bg {
+    background-color: var(--second-bg-color);
+  }
+  
+  .rounded-full {
+    border-radius: 100%;
+  }
+  
+  #wrapper {
+    overflow-x: hidden;
+    background-image: linear-gradient(
+      to bottom,
+      #8371de,
+      #948dd3,
+      #57cbdf,
+      #8de1f1,
+      #bcdaec
+    );
+  }
+  
+  #sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin 0.25s ease-out;
+    -moz-transition: margin 0.25s ease-out;
+    -o-transition: margin 0.25s ease-out;
+    transition: margin 0.25s ease-out;
+  }
+  
+  #sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+  }
+  
+  #sidebar-wrapper .list-group {
+    width: 15rem;
+  }
+  
+  #page-content-wrapper {
+    min-width: 100vw;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+  }
+  
+  #menu-toggle {
+    cursor: pointer;
+  }
+  
+  .list-group-item {
+    border: none;
+    padding: 20px 30px;
+  }
+  
+  .list-group-item.active {
+    background-color: transparent;
+    color: var(--main-text-color);
+    font-weight: bold;
+    border: none;
+  }
+  
+  @media (min-width: 768px) {
+  
+    
+    #sidebar-wrapper {
+      margin-left: 0;
+    }
+    .col-md-3 {
+      flex: 0 0 auto;
+      width: 33%;
+  }
+  
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+    }
+  
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: -15rem;
+    }
+    .fs-2{
+      font-family: Times, "Times New Roman", Georgia, serif;
+     }
+     .row {
+      --bs-gutter-x: -0.5rem;
+  }
+  }
+  /*custom css*/
+  .rounded {
+     border-radius: 0.55rem!important;
+   }
+   
+   .my-5 {
+     margin-top: 3rem!important;
+     margin-bottom: 3rem!important;
+   }
+   
+  
+   .second-text {
+    color: #ebe1e1;
+  }
+  
+  .border-bottom {
+    border-bottom: 2px solid #000000!important;
+  }
+  
+  .row{
+    --bs-gutter-x: 0.5rem;
+  }
+  .bg-gradient-1{
+    background-image: linear-gradient(45deg,#b02940,#fcc173);
+  }
+  .bg-gradient-2{
+    background-image: linear-gradient(45deg,#226cc5,#6cd975);
+  }
+  .bg-gradient-3{
+    background-image: linear-gradient(45deg,#7441db,#f9877c);
+  }
+  .bg-gradient-4{
+    background-image: linear-gradient(45deg,#09090a,#04023f);
+  }
